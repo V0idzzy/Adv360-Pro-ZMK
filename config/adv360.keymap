@@ -65,9 +65,14 @@
         &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
       >;
     };
-    extra1 { 
-      display-name = "Red";    
-      status = "reserved";
+    extra1 {
+        display-name = "Red";
+        bindings = <
+            &kp A  &kp B  &kp C  &kp D  &kp E  &kp F  &kp G  
+            &kp H  &kp I  &kp J  &kp K  &kp L  &kp M  &kp N  
+            &kp O  &kp P  &kp Q  &kp R  &kp S  &kp T  &kp U  
+            &kp V  &kp W  &kp X  &kp Y  &kp Z  &kp 1  &kp 2  
+        >;
     };
 
     extra2 { 
